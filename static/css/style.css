@@ -1,0 +1,11 @@
+#error404{
+    background: url(../img/404-error-design-with-box_23-2147733484.jpg) no-repeat right center;
+    height: calc(100vh - 56px);
+    display: block;
+    position: relative;
+    background-size: 626px 626px;
+}
+#error404 h1{
+    font-size: 8rem;
+    margin-top: 2rem;
+}

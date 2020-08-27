@@ -2,17 +2,16 @@
 {% block main %}
   <h1 style="text-align: center;">Register</h1>
     <div class="form">
-        <form action="/action_page.php" id="formything" style="text-align: center;">
-            <label for="email" id="email" name="email">email address:</label> <br>
-            <input type="text" id="email" name="email" placeholder="email address" style="width: 1000;"><br><br>
-            <label for="username" id="username" name="username">username</label><br>
-            <input type="text" id="username" name="username" placeholder="username"><br><br>
-            <label for="password">password:</label> <br>
+        <form action="/register" id="formything" style="padding-left: 3rem;" method="POST">
+            <label for="email" id="email" name="email">please provide an email adress:</label>
+            <input type="email" id="email" name="email" placeholder="email address"><br><br>
+            <label for="password">please enter a password:</label> 
             <input type="text" id="password" name="password" placeholder="password"><br><br>
-            <label for="passwordc" id="passwordc" name="passwordc">comfirm password:</label> <br>
-            <input type="text" id="passwordc" name="passwordc" placeholder="confirm password"><br><br>
+            <label for="passwordc" id="passwordc" name="passwordc">comfirm password:</label> 
+            <input type="text" id="passwordc" name="password_confirm" placeholder="confirm password"><br><br>
             <input type="submit" value="Submit"></form>
         </form>
+        <a href="/login" style="text-align:center;">already have an account?</a>
     </div>
   
 {% endblock %}

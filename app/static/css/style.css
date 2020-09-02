@@ -10,9 +10,12 @@
     margin-top: 2rem;
 }
 
-#text{
-    width: 1000px;
-}
+
 .form{
+    align-content: center;
     background-color:white;
+}
+
+.container1{
+    background-color: black;
 }
